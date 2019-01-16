@@ -2,21 +2,31 @@ package sk.itsovy.projectmath.Main;
 
 
 import sk.itsovy.projectmath.Dot;
+import sk.itsovy.projectmath.Triangle;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Dot dot1 = new Dot(5,-6,'B');
+        /*Dot dot1 = new Dot(5,-6,'B');
 
         dot1.print();
         System.out.println(dot1.getDistance());
         dot1.getFlip('x');
         dot1.print();
         System.out.println(dot1.getQuadrant());
-        dot1.about();
+        dot1.about();*/
 
-        Dot dot2 = new Dot(8,-4,'F');
+        Dot a = new Dot(1,4,'A');
+        Dot b = new Dot(4,8,'B');
+        Dot c = new Dot(3,5,'C');
+
+        Triangle triangle1 = new Triangle(a,b,c);
+        System.out.println("Perimeter of triangle= "+triangle1.getPerimeter());
+        System.out.println("Area of triangle= "+triangle1.getArea());
+      /*  System.out.println(triangle1.getSegmentA());
+        System.out.println(triangle1.getSegmentB());
+        System.out.println(triangle1.getSegmentC());*/
     }
 
 }

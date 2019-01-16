@@ -24,8 +24,16 @@ private Quarter quarter;
         this.y = y;
     }
 
-/*constructor*/
 
+    public char getName() {
+        return name;
+    }
+
+    public void setName(char name) {
+        this.name = name;
+    }
+
+/*constructor*/
     public Dot(){
         x=y=0;
     }
@@ -40,15 +48,6 @@ private Quarter quarter;
         x=y=x;
     }
 
-
-    public char getName() {
-        return name;
-    }
-
-    public void setName(char name) {
-        this.name = name;
-    }
-
     public Quarter getQuarter() {
         return quarter;
     }
@@ -59,6 +58,10 @@ private Quarter quarter;
 
     public double getDistance(){
         return Math.sqrt(x*x+y*y);
+    }
+
+    public double getDistance(Dot bod){
+        return Math.sqrt(Math.pow((y-x),2) + Math.pow((bod.getY()-bod.getX()),2));
     }
 
     public Quarter getQuadrant(){
@@ -102,9 +105,6 @@ private Quarter quarter;
 
     }
 
-    public double distance(int x dot1){
 
-
-    }
 }
 
