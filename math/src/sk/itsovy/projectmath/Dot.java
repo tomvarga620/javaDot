@@ -61,7 +61,7 @@ private Quarter quarter;
     }
 
     public double getDistance(Dot bod){
-        return Math.sqrt(Math.pow((y-x),2) + Math.pow((bod.getY()-bod.getX()),2));
+        return Math.sqrt(Math.pow(x-bod.getX(),2) + Math.pow(y-bod.getY(),2));
     }
 
     public Quarter getQuadrant(){
@@ -104,6 +104,8 @@ private Quarter quarter;
         System.out.println("Author= Tomáš Varga"+"  Date= 2019");
 
     }
+
+
 
 
 }

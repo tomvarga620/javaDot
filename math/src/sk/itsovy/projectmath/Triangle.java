@@ -50,4 +50,18 @@ public class Triangle  implements Methods {
         return getSegmentA()+getSegmentB()+getSegmentC();
     }
 
+    public float getAlpha() {
+
+        double a = getSegmentA();
+        double b = getSegmentB();
+        double c = getSegmentC();
+
+        float alpha = (float) Math.acos((Math.pow(a,2) + Math.pow(c,2) - Math.pow(b,2))/(2*a*c));
+
+        alpha = (float) (alpha * 180 / Math.PI);
+
+        return alpha;
+
+        //trieda square - štvorec - odvod štvorca,obsah štvorca,uhlopriečka, aj kruh
+    }
 }

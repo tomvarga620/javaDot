@@ -17,16 +17,18 @@ public class Main {
         System.out.println(dot1.getQuadrant());
         dot1.about();*/
 
-        Dot a = new Dot(1,4,'A');
-        Dot b = new Dot(4,8,'B');
-        Dot c = new Dot(3,5,'C');
+        Dot a = new Dot(-2,-2,'A');
+        Dot b = new Dot(6,-2,'B');
+        Dot c = new Dot(6,4,'C');
 
         Triangle triangle1 = new Triangle(a,b,c);
         System.out.println("Perimeter of triangle= "+triangle1.getPerimeter());
         System.out.println("Area of triangle= "+triangle1.getArea());
-      /*  System.out.println(triangle1.getSegmentA());
+        /*System.out.println(triangle1.getSegmentA());
         System.out.println(triangle1.getSegmentB());
         System.out.println(triangle1.getSegmentC());*/
+        System.out.println(triangle1.getAlpha());
+        
     }
 
 }
