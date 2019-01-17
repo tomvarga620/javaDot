@@ -9,7 +9,7 @@ public class Square implements Methods {
     private Dot c;
     private Dot d;
 
-    public Square(){
+    public Square(Dot a,Dot b,Dot c,Dot d){
         this.a=a;
         this.b=b;
         this.c=c;
@@ -48,14 +48,9 @@ public class Square implements Methods {
         double b = getSegmentB();
         double c = getSegmentC();
         double d = getSegmentD();
-        double result;
 
-        if(a==b && a==c && a==d)
-            result = Math.pow(a,2);
-        return result;
-
-
-
+            double result = Math.pow(a,2);
+            return result;
 
     }
 
