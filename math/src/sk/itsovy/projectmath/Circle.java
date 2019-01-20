@@ -43,4 +43,16 @@ public class Circle implements Methods {
         double radius = getRadius();
         return 2*Math.PI*radius;
     }
+
+    public boolean isDotInsideACricle(Dot bod){
+        double radius = getRadius();
+        double a = getSegmentA();
+        if(radius<=a){
+        return false;
+        }
+        else
+        {
+        return true;
+        }
+    }
 }
