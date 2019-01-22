@@ -3,6 +3,8 @@ package sk.itsovy.projectmath.Main;
 
 import sk.itsovy.projectmath.*;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -52,7 +54,6 @@ public class Main {
         System.out.println("Area of the circle= "+circle1.getArea());
         System.out.println("Perimeter of the circle= "+circle1.getPerimeter());
         System.out.println(circle1.isDotInsideACircle(a));
-        */
 
 
         Dot a = new Dot(0,2,'A');
@@ -67,7 +68,42 @@ public class Main {
         System.out.println("Perimeter of the rectangle = "+rectangle1.getPerimeter());
         System.out.println("Diagonal of the rectangle = "+rectangle1.getDiagonal());
 
+        Dot3D dot3D= new Dot3D(2,4,7,'D');
+        dot3D.print();
+        System.out.println(dot3D.getDistance());
+        System.out.println(dot3D.getQuadrant());*/
+        Dot[] array;
+        array= new Dot[10];
+        Random rnd= new Random();
+        for(int i=0;i<9;i++){
 
+            array[i]= new Dot(rnd.nextInt(41)-20,rnd.nextInt(41)-20,(char) (rnd.nextInt(26) + 'a'));
+            array[i].print();
+
+        }
+        //aby vypisalo 2 body ktore su najvzdalenejsie od seba
+
+        double firstNum = 0;
+        double secondNum = 0;
+
+        for(int i = 0; i < 9; i++){
+            if(firstNum < array[i].getDistance()){
+
+                secondNum = firstNum;
+                firstNum = array[i].getDistance();
+
+            }else if(secondNum < array[i].getDistance()){
+
+                secondNum = array[i].getDistance();
+
+            }
+
+        }
+        for(int i = 0;i < 9;i++){
+            System.out.println(array[i].getDistance());
+        }
+        System.out.println("Top two numbers : First -  "
+                + firstNum + " Second " + secondNum);
 
     }
 
