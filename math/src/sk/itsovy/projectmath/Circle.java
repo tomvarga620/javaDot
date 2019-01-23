@@ -5,13 +5,13 @@ import sk.itsovy.projectmath.Main.Methods;
 public class Circle implements Methods {
 
     private Dot a;
-    private Dot b;
+    private double radius;
 
 
-    public Circle(Dot a,Dot b){
+    public Circle(Dot a,double b){
 
     this.a=a;
-    this.b=b;
+    this.radius=b;
 
     }
 
@@ -21,38 +21,41 @@ public class Circle implements Methods {
 
     }
 
-    public double getSegmentA(){
-        return a.getDistance(b);
+    public double getB() {
+        return radius;
     }
 
-    public double getRadius(){
+    public double getDiameter(){
 
-        return a.getDistance(b)/2;
+        return radius*2;
 
     }
 
 
     @Override
     public double getArea() {
-        double radius = getRadius();
         return Math.PI*Math.pow(radius,2);
     }
 
     @Override
     public double getPerimeter() {
-        double radius = getRadius();
         return 2*Math.PI*radius;
     }
-
+    /*
     public boolean isDotInsideACricle(Dot bod){
         double radius = getRadius();
         double a = getSegmentA();
         if(radius<=a){
-        return false;
+            return false;
         }
         else
         {
-        return true;
+            return true;
         }
+    }*/
+
+    public void print(){
+        System.out.println("x= "+a.getX()+" y= "+a.getY()+" Radius= "+getB());
     }
+
 }

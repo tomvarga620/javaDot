@@ -71,7 +71,7 @@ public class Main {
         Dot3D dot3D= new Dot3D(2,4,7,'D');
         dot3D.print();
         System.out.println(dot3D.getDistance());
-        System.out.println(dot3D.getQuadrant());*/
+        System.out.println(dot3D.getQuadrant());
         Dot[] array;
         array= new Dot[10];
         Random rnd= new Random();
@@ -80,9 +80,9 @@ public class Main {
             array[i]= new Dot(rnd.nextInt(41)-20,rnd.nextInt(41)-20,(char) (rnd.nextInt(26) + 'a'));
             array[i].print();
 
-        }
-        //aby vypisalo 2 body ktore su najvzdalenejsie od seba
+        }*/
 
+        /*
         double firstNum = 0;
         double secondNum = 0;
 
@@ -103,7 +103,28 @@ public class Main {
             System.out.println(array[i].getDistance());
         }
         System.out.println("Top two numbers : First -  "
-                + firstNum + " Second " + secondNum);
+                + firstNum + " Second - " + secondNum);*/
+
+        Random rnd = new Random();
+        Circle[] array;
+        array= new Circle[10];
+
+        for(int i=0; i<5; i++){
+
+            Dot a= new Dot(rnd.nextInt(10)+1,rnd.nextInt(10)+1,(char) (rnd.nextInt(26) + 'a'));
+            array[i]= new Circle(a,rnd.nextInt(10)+1);
+            array[i].print();
+
+        }
+
+        for(int i=0;i<4;i++){
+            for(int j=0;j<i+1;i++){
+
+            }
+        }
+
+        //najblizši bod ku nule
+        //urobiť triedu angle
 
     }
 

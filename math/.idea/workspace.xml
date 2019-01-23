@@ -4,6 +4,7 @@
     <list default="true" id="143f3c1f-5667-446e-8a5c-3a65df18a891" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/math/sk/itsovy/projectmath/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/math/sk/itsovy/projectmath/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+            <state relative-caret-position="411">
+              <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,53 +32,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Rectangle.java">
+        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+            <state relative-caret-position="332">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot3D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,16 +79,16 @@
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Square.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Methods.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Square.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot3D.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
@@ -161,12 +128,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548176106560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548240414712" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -245,9 +212,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.20958512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +222,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50138503" side_tool="true" weight="0.1881259" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30014026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30014026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,16 +271,17 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Square.java" />
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Methods.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="-28">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="122">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#478#479#0" expanded="true" />
@@ -329,14 +296,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="410">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Rectangle.java" />
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Quarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -346,21 +318,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="780">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="720">
           <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
@@ -376,23 +341,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Dot3D.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Methods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectmath/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+        <state relative-caret-position="411">
+          <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
