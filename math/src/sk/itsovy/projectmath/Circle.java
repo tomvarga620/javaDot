@@ -6,12 +6,14 @@ public class Circle implements Methods {
 
     private Dot a;
     private double radius;
+    private static int count=0;
 
 
     public Circle(Dot a,double b){
 
     this.a=a;
     this.radius=b;
+    count++;
 
     }
 
@@ -31,6 +33,14 @@ public class Circle implements Methods {
 
     }
 
+    public Dot getS(){
+        return a;
+
+    }
+
+    public double getRadius() {
+        return radius;
+    }
 
     @Override
     public double getArea() {
@@ -57,5 +67,11 @@ public class Circle implements Methods {
     public void print(){
         System.out.println("x= "+a.getX()+" y= "+a.getY()+" Radius= "+getB());
     }
+
+    public static void printCount(){
+
+        System.out.println("Number of circles= "+count);
+
+    }//statická metoda vie pracovat len so static premennami
 
 }

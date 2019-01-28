@@ -17,6 +17,11 @@ public class Dot3D extends Dot {
         this.z = z;
     }
 
+    public Dot3D(){
+
+
+    }
+
     public void print(){
 
         System.out.println("Dot Name= "+getName()+"  X distance= "+getX()+"  Y distance= "+getY()+"  Z distance= "+z);
