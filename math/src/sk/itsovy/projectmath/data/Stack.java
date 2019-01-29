@@ -1,5 +1,6 @@
 package sk.itsovy.projectmath.data;
 
+import sk.itsovy.projectmath.Circle;
 import sk.itsovy.projectmath.Dot;
 
 public class Stack {
@@ -7,11 +8,13 @@ public class Stack {
         private int capacity;
         private int size;
         private Dot arr[];
+        private Circle arr2[];
 
         public Stack(int capacity){
             this.capacity = capacity;
             this.size = 0;
             this.arr= new Dot[capacity];
+            this.arr2=new Circle[capacity];
 
         }
 
@@ -71,6 +74,46 @@ public class Stack {
             else{
                 return arr[size-1];
             }
+    }
+
+    public void enqueue (Circle circle){
+
+            if(toFull()){
+                throw new ArrayIndexOutOfBoundsException("Que is full");
+            }
+
+            if(circle==null){
+                return;
+            }
+
+            arr2[size]=circle;
+            size++;
+
+    }
+
+    public Circle front (){
+        if(isEmpty()){
+            return null;
+        }
+        else
+        {
+            return arr2[0];
+        }
+
+    }
+
+    public void dequeue(){
+            if(isEmpty()){
+                throw new NoSuchFieldError("Queue is empty");
+            }
+            else
+            {
+                for (int i=0;i<size-1;i++){
+                    arr2[i]=arr2[i+1];
+                }
+            }
+            size--;
+            arr2[size]=null;
     }
 
     public void pop(){

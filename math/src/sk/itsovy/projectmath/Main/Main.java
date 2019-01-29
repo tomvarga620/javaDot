@@ -241,17 +241,20 @@ public class Main {
 
         //Queue FIFO du namiesto push Enqueue
 
-
-        Front front1 = new Front(3);
         Dot d1 = new Dot(2,3,'D');
         Dot d2 = new Dot(4,1,'A');
-        Dot3D d3 = new Dot3D(1,2,6,'E');
+        Dot d3 = new Dot(4,3,'C');
 
-        front1.Enqueue(d1);
-        front1.Enqueue(d2);
-        front1.Enqueue(d3);
+        Circle kruh1 = new Circle(d1,1);
+        Circle kruh2 = new Circle(d2,2);
+        Circle kruh3 = new Circle(d3,3);
 
+        Stack front1 = new Stack(3);
+        front1.enqueue(kruh1);
+        front1.enqueue(kruh2);
+        front1.enqueue(kruh3);
 
+        front1.front().print();
 
     }
 
